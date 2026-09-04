@@ -1,0 +1,309 @@
+{
+  "name": "lambo_car",
+  "category": "characters",
+  "animation": "Lambo Car",
+  "size": [
+    96,
+    48
+  ],
+  "fps": 1,
+  "background": "transparent",
+  "palette": {
+    "ink": "#050505ff",
+    "body": "#000000ff",
+    "neon": "#ff5500ff",
+    "glow": "#ff8833ff",
+    "joint": "#ffcc66ff"
+  },
+  "frames": [
+    {
+      "name": "lambo_car",
+      "commands": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              8,
+              26
+            ],
+            [
+              14,
+              18
+            ],
+            [
+              28,
+              14
+            ],
+            [
+              46,
+              14
+            ],
+            [
+              62,
+              16
+            ],
+            [
+              78,
+              20
+            ],
+            [
+              86,
+              22
+            ],
+            [
+              90,
+              26
+            ],
+            [
+              88,
+              34
+            ],
+            [
+              18,
+              34
+            ]
+          ],
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 8,
+          "y1": 26,
+          "x2": 14,
+          "y2": 18,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 14,
+          "y1": 18,
+          "x2": 28,
+          "y2": 14,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 28,
+          "y1": 14,
+          "x2": 46,
+          "y2": 14,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 46,
+          "y1": 14,
+          "x2": 62,
+          "y2": 16,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 62,
+          "y1": 16,
+          "x2": 78,
+          "y2": 20,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 78,
+          "y1": 20,
+          "x2": 86,
+          "y2": 22,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 86,
+          "y1": 22,
+          "x2": 90,
+          "y2": 26,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 90,
+          "y1": 26,
+          "x2": 88,
+          "y2": 34,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 88,
+          "y1": 34,
+          "x2": 18,
+          "y2": 34,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 18,
+          "y1": 34,
+          "x2": 8,
+          "y2": 26,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              32,
+              14
+            ],
+            [
+              40,
+              8
+            ],
+            [
+              54,
+              8
+            ],
+            [
+              62,
+              14
+            ]
+          ],
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 32,
+          "y1": 14,
+          "x2": 40,
+          "y2": 8,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 40,
+          "y1": 8,
+          "x2": 54,
+          "y2": 8,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 54,
+          "y1": 8,
+          "x2": 62,
+          "y2": 14,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 62,
+          "y1": 14,
+          "x2": 32,
+          "y2": 14,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "rect",
+          "x": 78,
+          "y": 16,
+          "w": 12,
+          "h": 3,
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 78,
+          "y1": 16,
+          "x2": 90,
+          "y2": 16,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 90,
+          "y1": 16,
+          "x2": 90,
+          "y2": 19,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "ellipse",
+          "x": 20,
+          "y": 28,
+          "w": 16,
+          "h": 16,
+          "color": "transparent"
+        },
+        {
+          "type": "ellipse",
+          "x": 62,
+          "y": 28,
+          "w": 16,
+          "h": 16,
+          "color": "transparent"
+        },
+        {
+          "type": "line",
+          "x1": 20,
+          "y1": 36,
+          "x2": 36,
+          "y2": 36,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 62,
+          "y1": 36,
+          "x2": 78,
+          "y2": 36,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 48,
+          "y1": 22,
+          "x2": 58,
+          "y2": 22,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 48,
+          "y1": 24,
+          "x2": 56,
+          "y2": 24,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "pixel",
+          "x": 18,
+          "y": 22,
+          "color": "joint"
+        },
+        {
+          "type": "pixel",
+          "x": 84,
+          "y": 24,
+          "color": "joint"
+        }
+      ]
+    }
+  ]
+}

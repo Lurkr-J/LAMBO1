@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sprites": "python .sprite-studio/generate_lambo.py",
+    "sprites:spark": "python .sprite-studio/sprite_tool.py .sprite-studio/specs/orange_spark.json",
+    "sprites:rig": "python .sprite-studio/sprite_rig.py .sprite-studio/rigs/lambo_robot_stride.json"
   },
   "keywords": [],
   "author": "",

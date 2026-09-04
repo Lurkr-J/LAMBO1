@@ -1,0 +1,111 @@
+{
+  "name": "lambo_wheel",
+  "category": "props",
+  "animation": "Lambo Wheel",
+  "size": [
+    24,
+    24
+  ],
+  "fps": 1,
+  "background": "transparent",
+  "palette": {
+    "ink": "#050505ff",
+    "body": "#000000ff",
+    "neon": "#ff5500ff",
+    "glow": "#ff8833ff",
+    "joint": "#ffcc66ff"
+  },
+  "frames": [
+    {
+      "name": "lambo_wheel",
+      "commands": [
+        {
+          "type": "ellipse",
+          "x": 2,
+          "y": 2,
+          "w": 20,
+          "h": 20,
+          "color": "body"
+        },
+        {
+          "type": "ellipse",
+          "x": 2,
+          "y": 2,
+          "w": 20,
+          "h": 20,
+          "color": "neon"
+        },
+        {
+          "type": "ellipse",
+          "x": 4,
+          "y": 4,
+          "w": 16,
+          "h": 16,
+          "color": "body"
+        },
+        {
+          "type": "ellipse",
+          "x": 10,
+          "y": 10,
+          "w": 4,
+          "h": 4,
+          "color": "neon"
+        },
+        {
+          "type": "line",
+          "x1": 12,
+          "y1": 4,
+          "x2": 12,
+          "y2": 10,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 12,
+          "y1": 14,
+          "x2": 12,
+          "y2": 20,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 4,
+          "y1": 12,
+          "x2": 10,
+          "y2": 12,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 14,
+          "y1": 12,
+          "x2": 20,
+          "y2": 12,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 6,
+          "y1": 6,
+          "x2": 10,
+          "y2": 10,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 14,
+          "y1": 14,
+          "x2": 18,
+          "y2": 18,
+          "color": "glow",
+          "thickness": 1
+        }
+      ]
+    }
+  ]
+}

@@ -3,15 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Limbo-style Transform Platformer</title>
+    <title>PROJECT LAMBO</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- Load Three.js locally for 100% offline support -->
     <script src="./three.js"></script>
   </head>
   <body>
     <div id="ui-overlay">
       <h1>PROJECT: LAMBO</h1>
-      <p>Controls: A/D to move, SPACE to jump, T to transform</p>
+      <p class="controls">A / D or arrows to move · SPACE jump (robot) · T transform</p>
+      <div class="status-row">
+        <span id="mode-pill">HOVERCAR</span>
+        <span id="hint-label">Faster. Cannot jump.</span>
+      </div>
+      <div id="cooldown" aria-hidden="true"><div id="cooldown-fill"></div></div>
+      <p class="art-switch">
+        Art:
+        <a id="art-concept" href="./">concept</a>
+        ·
+        <a id="art-pixel" href="./?art=pixel">pixel (Sprite Studio)</a>
+      </p>
     </div>
     <div id="app"></div>
     <script src="./main.js" defer></script>

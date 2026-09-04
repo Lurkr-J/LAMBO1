@@ -1,1 +1,5 @@
 thumbnails/
+versions/
+transactions/
+last-generation.json
+rig-render.lock

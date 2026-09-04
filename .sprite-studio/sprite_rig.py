@@ -415,10 +415,19 @@ def sha256_file(path):
     return digest.hexdigest()
 
 
+def fsync_file(path):
+    """Flush a file to disk. Windows rejects fsync on read-only handles."""
+    flags = os.O_RDWR if os.name == "nt" else os.O_RDONLY
+    descriptor = os.open(path, flags)
+    try:
+        os.fsync(descriptor)
+    finally:
+        os.close(descriptor)
+
+
 def copy_synced(source, destination):
     shutil.copy2(source, destination)
-    with destination.open("rb") as handle:
-        os.fsync(handle.fileno())
+    fsync_file(destination)
     if sha256_file(source) != sha256_file(destination):
         raise OSError(f"backup verification failed for {source.name}")
 
@@ -2512,8 +2521,7 @@ def commit_render(
         for index, (canvas, expected_hash) in enumerate(zip(canvases, expected_hashes)):
             staged = frame_stage / output_paths[index].name
             canvas.save_png(staged)
-            with staged.open("rb") as handle:
-                os.fsync(handle.fileno())
+            fsync_file(staged)
             staged_width, staged_height, staged_pixels, _ = load_png(staged)
             staged_hash = hashlib.sha256(bytes(staged_pixels)).hexdigest()
             if (

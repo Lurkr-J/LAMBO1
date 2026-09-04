@@ -1,0 +1,24 @@
+---
+description: LAMBO game and sprite conventions for AI-assisted development
+alwaysApply: true
+---
+
+# LAMBO conventions
+
+This is a Limbo-inspired 2.5D Three.js platformer. Mustafa develops it with an AI agent. Keep changes small, playable, and explainable.
+
+## Do
+
+- Put playable images in `assets/` (concept pack) or `assets/characters|props|effects/` (Sprite Studio pack).
+- Generate sprites with `.sprite-studio/sprite_tool.py` and pack sheets with `.sprite-studio/pack_sheet.py`.
+- Keep car/robot gameplay distinct: car is faster and cannot jump; robot jumps.
+- After visual or control changes, run `npm run dev` and say what was not click-tested if no browser is available.
+
+## Do not
+
+- Write sprites to `public/` or to Mustafa's old Antigravity `brain/` paths.
+- Overwrite `assets/car.png`, `assets/robot.png`, `assets/robot_walk.png`, or `assets/wheel.png` unless asked.
+- Add frameworks. Stay on vanilla JS + the vendored `three.js` global (do not `import * as THREE` unless migrating the whole loader).
+- Invent sprite-studio GUI commands. The desktop app is separate; this repo uses the Python engine.
+
+When the user asks for sprites or animation, follow `.cursor/skills/lambo-sprites/SKILL.md`.

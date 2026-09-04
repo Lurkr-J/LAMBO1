@@ -1,0 +1,128 @@
+{
+  "name": "lambo_robot_stride",
+  "category": "characters",
+  "source": "assets/characters/lambo_robot.png",
+  "fps": 8,
+  "looping": true,
+  "rigVersion": 1,
+  "parts": [
+    {
+      "name": "left_leg",
+      "mask": {
+        "rect": [
+          8,
+          30,
+          14,
+          30
+        ]
+      },
+      "pivot": [
+        16.0,
+        32.0
+      ],
+      "z": 2
+    },
+    {
+      "name": "right_leg",
+      "mask": {
+        "rect": [
+          26,
+          30,
+          14,
+          30
+        ]
+      },
+      "pivot": [
+        30.0,
+        32.0
+      ],
+      "z": 1
+    }
+  ],
+  "frames": [
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": 16
+        },
+        "right_leg": {
+          "rotate": -16
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": 8
+        },
+        "right_leg": {
+          "rotate": -8
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": 0
+        },
+        "right_leg": {
+          "rotate": 0
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": -8
+        },
+        "right_leg": {
+          "rotate": 8
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": -16
+        },
+        "right_leg": {
+          "rotate": 16
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": -8
+        },
+        "right_leg": {
+          "rotate": 8
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": 0
+        },
+        "right_leg": {
+          "rotate": 0
+        }
+      }
+    },
+    {
+      "transforms": {
+        "left_leg": {
+          "rotate": 8
+        },
+        "right_leg": {
+          "rotate": -8
+        }
+      }
+    }
+  ],
+  "palette": {},
+  "baseZ": 0,
+  "planningMode": "ai-rig-deterministic-render",
+  "masterHash": "bf30ec83179d0673a4c584225585518bee568e32c3a478da2f4575b869670553"
+}

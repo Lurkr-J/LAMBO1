@@ -1,0 +1,402 @@
+{
+  "name": "lambo_robot",
+  "category": "characters",
+  "animation": "Lambo Robot Idle",
+  "size": [
+    48,
+    64
+  ],
+  "fps": 1,
+  "background": "transparent",
+  "palette": {
+    "ink": "#050505ff",
+    "body": "#000000ff",
+    "neon": "#ff5500ff",
+    "glow": "#ff8833ff",
+    "joint": "#ffcc66ff"
+  },
+  "frames": [
+    {
+      "name": "lambo_robot",
+      "commands": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              22,
+              10
+            ],
+            [
+              32,
+              8
+            ],
+            [
+              44,
+              10
+            ],
+            [
+              42,
+              28
+            ],
+            [
+              24,
+              28
+            ]
+          ],
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 22,
+          "y1": 10,
+          "x2": 32,
+          "y2": 8,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 32,
+          "y1": 8,
+          "x2": 44,
+          "y2": 10,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 44,
+          "y1": 10,
+          "x2": 42,
+          "y2": 28,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 42,
+          "y1": 28,
+          "x2": 24,
+          "y2": 28,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 24,
+          "y1": 28,
+          "x2": 22,
+          "y2": 10,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              26,
+              4
+            ],
+            [
+              40,
+              4
+            ],
+            [
+              42,
+              10
+            ],
+            [
+              24,
+              10
+            ]
+          ],
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 26,
+          "y1": 4,
+          "x2": 40,
+          "y2": 4,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 40,
+          "y1": 4,
+          "x2": 42,
+          "y2": 10,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 42,
+          "y1": 10,
+          "x2": 24,
+          "y2": 10,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 24,
+          "y1": 10,
+          "x2": 26,
+          "y2": 4,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "pixel",
+          "x": 28,
+          "y": 7,
+          "color": "joint"
+        },
+        {
+          "type": "pixel",
+          "x": 36,
+          "y": 7,
+          "color": "joint"
+        },
+        {
+          "type": "rect",
+          "x": 20,
+          "y": 12,
+          "w": 6,
+          "h": 3,
+          "color": "body"
+        },
+        {
+          "type": "rect",
+          "x": 40,
+          "y": 12,
+          "w": 6,
+          "h": 3,
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 20,
+          "y1": 12,
+          "x2": 26,
+          "y2": 14,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 46,
+          "y1": 12,
+          "x2": 40,
+          "y2": 14,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "pixel",
+          "x": 22,
+          "y": 18,
+          "color": "glow"
+        },
+        {
+          "type": "pixel",
+          "x": 42,
+          "y": 18,
+          "color": "glow"
+        },
+        {
+          "type": "line",
+          "x1": 16,
+          "y1": 32,
+          "x2": 14,
+          "y2": 44,
+          "color": "body",
+          "thickness": 3
+        },
+        {
+          "type": "line",
+          "x1": 14,
+          "y1": 44,
+          "x2": 14,
+          "y2": 56,
+          "color": "body",
+          "thickness": 3
+        },
+        {
+          "type": "line",
+          "x1": 16,
+          "y1": 32,
+          "x2": 14,
+          "y2": 44,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 14,
+          "y1": 44,
+          "x2": 14,
+          "y2": 56,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "ellipse",
+          "x": 15,
+          "y": 31,
+          "w": 3,
+          "h": 3,
+          "color": "joint"
+        },
+        {
+          "type": "ellipse",
+          "x": 13,
+          "y": 43,
+          "w": 3,
+          "h": 3,
+          "color": "joint"
+        },
+        {
+          "type": "ellipse",
+          "x": 12,
+          "y": 55,
+          "w": 5,
+          "h": 3,
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 12,
+          "y1": 57,
+          "x2": 16,
+          "y2": 57,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 30,
+          "y1": 32,
+          "x2": 32,
+          "y2": 44,
+          "color": "body",
+          "thickness": 3
+        },
+        {
+          "type": "line",
+          "x1": 32,
+          "y1": 44,
+          "x2": 32,
+          "y2": 56,
+          "color": "body",
+          "thickness": 3
+        },
+        {
+          "type": "line",
+          "x1": 30,
+          "y1": 32,
+          "x2": 32,
+          "y2": 44,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 32,
+          "y1": 44,
+          "x2": 32,
+          "y2": 56,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "ellipse",
+          "x": 29,
+          "y": 31,
+          "w": 3,
+          "h": 3,
+          "color": "joint"
+        },
+        {
+          "type": "ellipse",
+          "x": 31,
+          "y": 43,
+          "w": 3,
+          "h": 3,
+          "color": "joint"
+        },
+        {
+          "type": "ellipse",
+          "x": 30,
+          "y": 55,
+          "w": 5,
+          "h": 3,
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 30,
+          "y1": 57,
+          "x2": 34,
+          "y2": 57,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 26,
+          "y1": 28,
+          "x2": 16,
+          "y2": 32,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 38,
+          "y1": 28,
+          "x2": 30,
+          "y2": 32,
+          "color": "neon",
+          "thickness": 1
+        },
+        {
+          "type": "rect",
+          "x": 22,
+          "y": 30,
+          "w": 4,
+          "h": 10,
+          "color": "body"
+        },
+        {
+          "type": "rect",
+          "x": 40,
+          "y": 32,
+          "w": 4,
+          "h": 10,
+          "color": "body"
+        },
+        {
+          "type": "line",
+          "x1": 24,
+          "y1": 30,
+          "x2": 24,
+          "y2": 40,
+          "color": "glow",
+          "thickness": 1
+        },
+        {
+          "type": "line",
+          "x1": 42,
+          "y1": 32,
+          "x2": 42,
+          "y2": 42,
+          "color": "glow",
+          "thickness": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "orange_spark",
+  "category": "effects",
+  "animation": "Orange Spark",
+  "size": [16, 16],
+  "fps": 8,
+  "background": "transparent",
+  "palette": {
+    "ink": "#050505ff",
+    "neon": "#ff5500ff",
+    "glow": "#ffaa33ff"
+  },
+  "frames": [
+    {
+      "name": "orange_spark_01",
+      "commands": [
+        { "type": "ellipse", "x": 6, "y": 6, "w": 4, "h": 4, "color": "neon" }
+      ]
+    },
+    {
+      "name": "orange_spark_02",
+      "commands": [
+        { "type": "ellipse", "x": 5, "y": 5, "w": 6, "h": 6, "color": "neon" },
+        { "type": "ellipse", "x": 7, "y": 7, "w": 2, "h": 2, "color": "glow" }
+      ]
+    },
+    {
+      "name": "orange_spark_03",
+      "commands": [
+        { "type": "ellipse", "x": 4, "y": 4, "w": 8, "h": 8, "color": "neon" },
+        { "type": "ellipse", "x": 6, "y": 6, "w": 4, "h": 4, "color": "glow" },
+        { "type": "pixel", "x": 8, "y": 8, "color": "#ffffffff" }
+      ]
+    },
+    {
+      "name": "orange_spark_04",
+      "commands": [
+        { "type": "ellipse", "x": 5, "y": 5, "w": 6, "h": 6, "color": "neon" }
+      ]
+    }
+  ]
+}
